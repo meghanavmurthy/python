@@ -1,0 +1,17 @@
+def myinput():
+    x=int(input("no:"))
+    y=int(input("no:"))
+    return x,y
+
+def add(x,y):
+    return x+y
+
+def output(x,y,z):
+    print("%d + %d =%d"%(x,y,z))
+
+def main():
+    x,y=myinput()
+    z=add(x,y)
+    output(x,y,z)
+
+main()   
